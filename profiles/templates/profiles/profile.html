@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p> This is the profile page</p>
+<p> {{ user.username }}'s profile</p>
+
+<p> Linkedin Profile: {{ user.profile.linkedin }}</p>
+<br>
+<p> Position : {{ user.profile.position }}</p>
+<br>
+Events attending:
+{% for event in user.attendees.all %}
+<a href="{% url 'event:detail' event.id %}">{{ event.title }}</a>
+<br>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<h2> List of all the categories</h2>
+{{tag.name}}
+{% for tag in tag_list %}
+    {{tag}}<br>
+    {% for event in tag.event_set.all %}
+        <a href="{% url 'event:detail' event.id %}">{{ event.title }}</a>
+        <br>
+    {% endfor %}
+{% endfor %}
+
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+{{subject_found.name}}
+
+    {% for event in subject_found.event_set.all %}
+        <br>
+        <a href="{% url 'event:detail' event.id %}">{{ event.title }}</a>
+
+    {% endfor %}
+
+
+{% endblock %}
