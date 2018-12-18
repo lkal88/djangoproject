@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<p> This is the detail page</p>
+Title: {{ event.title }} <br>
+Link: {{event.link}}<br>
+{# test comments #}
+
+Description: <br> {{event.description | safe }}<br>
+Author: {{event.author }}<br>
+Type of event:<br>
+
+    {% for tag in event.tags.all %}
+        {{tag}} &nbsp
+    {% endfor %}
+{% endblock %}

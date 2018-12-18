@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+<p> Create an event!</p>
+
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form | crispy }}
+    <button type="submit">Submit</button>
+</form>
+
+
+{% endblock %}

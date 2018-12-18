@@ -1,0 +1,53 @@
+The product:
+What are currently the 5+ main points in events? MVP
+
+
+
+1. It is very hard to discover relevant events:
+- Facebook, unsw, linkedin, etc. all have different ways of discovery.
+
+Solution:
+Introduction of tags that allow events to be easily discovered. Can be clicked on to find relevant categories.
+Introduce grouping of events to see past events - e.g Part of a series etc.
+#Introduce testimonials and reviews of experiences of the event. Maybe able to include instagram posts or linkedin to it but seems excessive atm. (Maybe dont include this feature in MVP)
+Make it shareable through social networks etc. When a company creates an event, ask if they would like to share it on linkedin etc.
+Introduction of a search function with filters.
+Social - people can look at other people's profiles to see which professional events they're attending?
+- People can write testimonials of their time on the event pages/ company pages.
+- Project Everest, Unbound, etc. 
+
+
+2. It is hard to see how good an event is based on what you're interested in.
+Adding tags to people to see what events they're into.
+- Make it so people can give put their profiles on their resume.
+
+
+Growth:
+- Make it shareable through social networks. The product also must offer something eventbrite, meetup and facebook cannot/ different. e.g filters instagram.
+- Allow banners/images uploads to the website browse.
+- Why do companies use eventbrite? Automated app system to release tickets. Competitor to ticketek.
+- Discovery - the tag system.
+- Company profile - testimonials about their events on their company profile;
+- Event groups - AIESEC Opportunities, Project Everest, Ted Talks.
+
+
+Strategy:
+- Sign up universities first - tons of universities offer events in the system.
+- Start with companies such as GA, etc.
+- Move on to bigger companies once traction gains?
+- Install a share link that exposes to other systems.
+
+Separation:
+- How does the website become valuable in comparison to other event apps such as facebook, eventbrite, meetup, linkedin etc?
+- What stops competitors from cloning?
+- Shows people attending with linkedin integration, professionals. Facebook just shows their friends/photos etc.
+- Shows list of people attending. (You can only look at the list if your registered user.)
+- Shows testimonials of people who have previously attended the event.
+- MAYBE PAYMENT OF TICKETS??
+- Possibly add a live feed during the event? for startcon it could work because different talks.
+- MAIN THING IS RECOMMENDATIONS! BECAUSE WE KNOW THE CITY YOU'RE IN YOUR MAJOR, ETC. WE CAN RECOMMEND THE BEST EVENTS TO YOU EVEN IF ITS GLOBAL!
+
+
+
+Points of improvement:
+- imagekit generateimage.

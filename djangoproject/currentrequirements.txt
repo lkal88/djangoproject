@@ -1,0 +1,7 @@
+crispyforms
+social login
+tinymce-4-lite
+django filebrowser no grappelli - for tinymce file uploads.
+pillow - to handle img uploads.
+bootstrap datepicker plus
+imagekit

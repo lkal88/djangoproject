@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> This is the home page! </h1>
+<br>
+<div class="test-button">Hello</div>
+<div class="testingthis">This workS!!!!</div>
+<div class="dummy">
+<p> Tester</p>
+</div>
+<div class="jumbotron">
+        <p>Current events</p>
+</div>
+
+
+
+    {% for event in event_list %}
+{# class="align-self-start mr-" #}
+
+<div class="container">
+<div class="row">
+    <div class="container-fluid">
+        <div class="card flex-row flex-wrap w-75">
+            <div class="card-header" style="background:none">
+    <img class="img-fluid" src="{{event.image_thumbnail.url}}"><br>
+            </div>
+        <div class="card-block px-2">
+            <div class="card-title">
+            <a href="{% url 'event:detail' event.id %}" style="color:black; font-size: 25px"> {{event.title}}</a>
+            </div>
+            <div class="card-text">
+
+        {% if event.author == request.user %}
+            &nbsp <a href="{% url 'event:event_edit' event.id %}" style="float:right">Edit</a>
+            &nbsp <a href="{% url 'event:event_delete' event.id %}">Delete</a>
+        {% endif %}
+
+        <br> &nbsp
+
+        {% for tag in event.tags.all %}
+            <a href="{% url 'tags:detail' tag.id %}">{{tag}}</a>&nbsp
+        {% endfor %}
+
+        <br>
+
+        <br>
+        {% for subject in event.subject.all %}
+
+                    <div class="test-button mb-0">
+                        <a href="{% url 'subject:detail' subject.id %}">{{subject}}</a>&nbsp
+                    </div>
+
+                </div>
+                </div>
+        {% endfor %}
+        </div>
+        </div>
+        </div>
+        </div>
+<br><br>
+{% endfor %}
+
+
+
+{% endblock %}

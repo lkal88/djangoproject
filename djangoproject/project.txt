@@ -1,0 +1,113 @@
+Technologies:
+#BOOTSTRAP
+#DJANGO
+#jquery/basic javascript
+
+Definite features:
+- Search function
+- Type/subjects/tags to categorise. Type of event: talk, competition, opportunity and subject: finance, Engineering, tech, Professional Development, entrepreneurship etc.
+- university of the student + photo for the event users to see.
+- Should have a notification system and saving.
+- Testimonials from students who have completed the program(?) No MLMs.
+    What does this achieve? Reliable info about the events.
+- Should be able to save certain events.
+- AIESEC events, Project Everest events etc.
+- Has restrictions in red text: e.g RSVP only, UNSW only etc. Selection only etc. 
+- How do we make it more fun? We can include testimonials from users that have participated. Linkedin shares posts, facebook
+and eventbrite don't have this feature.
+- Also need multiple dates if it runs for multiple sessions
+-
+
+
+
+THE PROBLEM - keep it simple:
+- Students find it hard to find opportunities in their space. Product should focus on discovery!. unsw.events, KPMG hackathon
+- E.g Linkedin ads, facebook ads, university ads, website ads make it hard to find and search.
+- Eventbrite isn't really related to opportunities and scholarships, more culture/music/business based. Also event discovery is not appreciated.
+- Students want to be able to see what they want to do (GCG, link japan, India Volunteer exchange, hackathons, networking opportunities, etc.)
+- Most professional companies have to have their own registration form etc.
+- Bloomberg training, Bain information night. UNSW events. These events are only listed on their website!. Central data hub for all events.
+- Need to sign up on their website.
+- Maybe the HR and event creators can successfully target specific people - people from their company, mckinsey etc.
+- HOW DO WE MAKE IT MORE FUN/COMPETITIVE? AKA LOOK AT EVENTS, WHERE MOST ATTENDEES THAT WENT TO THESE EVENTS END UP/WORK AT.
+- Initially try get university events/organisations, 180 degrees, AIESEC, GCG, etc. Profiles should have universities to see which events apply.
+- If a company has restriction to a specific university, has to have a restrictions tag.
+- Should it just link to the event, notifications or save? - should have a notifications system.
+- Instead of attending; should be interested similar to FB?. Able to leave TESTIMONIALS.
+- Should have speakers attending etc. At the moment, should not be a social network. should focus on event discovery etc for students in specific universities and HS.
+COMPETITORS:
+- Meetup - more for local events, most similar, avg traction. Poor discovery features. Not really specific for students or professional events.
+- They use groups to coordinate interests.
+- GENERAL ASSEMBLY!!! - HAS A GOOD EVENTS SYSTEM. THINK OF HOW TO REPLICATE.
+- Similar events = not really a thing.
+HR wants:
+- information on their candidate and list of all the people attending.
+- In their registration, they request preference for offices, and if they are currently attending school.
+- May be able to enter the core information, such as currently in school, LGBT etc in their profile (only visible to potential HR employers)
+- Add testimonials to events. People want to find out which upcoming events they attending and which events they attended.
+- Put privacy mode on individual events.
+
+THE PRODUCT:
+- Make an event that is able to be classified easily, finance, networking, design, exchange opportunities (tags?)
+An ideal event should have:
+- Title
+- Description
+- Company/University held by.
+- Link to their own website/form/etc.
+- Date published
+- Date of event (range)
+- City/Address held.
+- WHO IS ELIGIBLE.NO (UNSW STUDENTS only, UNSW engineers only, students only. etc.) needs to be based on school? Just red text or something.
+- tags/category (type of event, subjects)
+- Series: A global series of chats etc. previous year etc.
+- Testimonials, can be anonymous or use profile.
+- Can share events on linkedin!
+
+- If it is a sequence of events, should be able to be linked to past events (e.g 2017 Consulting comp, 2018 consulting comp.)
+- Be able to leave a review for the competition - e.g Participant of the event, 1st place of the event.
+- Also think about trade shows? How will a range of companies be affected?
+- Previous attendees who have attended prior. (maybe need mobile app for this stuff.)
+- Past events
+- List of attendees - who can be visible?
+- Testimonies?
+
+Core events:
+- opportunities
+- competitions
+- credentials gains
+- should also be categorised into different fields (volunteering, finance, consulting, networking etc)
+- Enough categories to be interesting, a category can be clicked on and all the kinds of events will appear on it.
+
+
+Companies:
+- Once you click on a company, it comes up with their company profile?
+- Either login through linkedin or facebook. However, some companies such as unsw engineering don't have linkedin.
+- Has a description of what they do and past events they've held.
+- Probably should include a search function for say credit suisse that holds hackathons, competitions/events in different countries.
+
+Profiles:
+- Name
+- Linkedin link/profile (may login through linkedin if possible?)
+- Current student of #, current position at which company/society.
+- Event attended/applied for.
+- Privacy settings.
+
+
+
+
+MARKETING:
+Students:
+- Mass market to UNSW students through zID spamming.
+- Whirlpool forums.
+- Target market: the
+- UNSW has a lot of events for students that are only advertised on their website. Same with UTS, USYD etc.
+- Student societies such as AIESEC, etc.
+
+
+Companies:
+- Mass email spam companies that are advertising to students through facebook and linkedin.
+
+
+Possible issues:
+annual events are hard to hold, more students looking for events that events/opportunities that are held.
+trade expos that involve multiple companies.

@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<p> This is the detail page</p>
+<img src="{{event.image.url}}">
+<br>
+<br>
+
+<div class="container" style=" border:dotted; width = 1000px">
+    <div class="row justify-content-between" style="border: dashed;">
+        <div class="col-7" style="border: dashed">
+    <div class="font-weight-bold" style="border-color: yellow">{{ event.title }} &nbsp</div>
+    Description: <br>
+
+    {{event.description | safe}} <br>
+    Author: {{event.author }} <br>
+        </div>
+
+
+<div class="col-md-3" style="border:dotted;">
+{% if event.author == request.user %}
+    <a href="{% url 'event:event_edit' event.id %}"> Edit </a>
+    <a href="{% url 'event:event_delete' event.id %}"> Delete </a>
+    <p>Type of event:</p>
+        {% for tag in event.tags.all %}
+            <a href="{% url 'tags:detail' tag.id %}">{{tag}}</a>&nbsp
+        {% endfor %}
+    <p> Subject:</p>
+        {% for subject in event.subject.all %}
+            <a href="{% url 'subject:detail' subject.id %}">{{ subject }}</a> &nbsp
+        {% endfor %}
+
+    <br>
+    {% if event.author != request.user %}
+        {% if event not in request.user.attendees.all %}
+            <a href="{% url 'event:attend' event.id %}">Save</a>
+        {% else %}
+            <a href="{% url 'event:unattend' event.id %}">Unsave</a>
+        {% endif %}
+    {% endif %}
+{% endif %}
+    <br>
+<a href="{{event.link}}">Go to website</a> <br>
+</div>
+</div>
+</div>
+<br>
+
+<br>
+<br><br><br>
+
+
+
+
+<br><br><br>
+{% endblock %}
